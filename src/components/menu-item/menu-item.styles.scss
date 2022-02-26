@@ -1,6 +1,7 @@
-@import url(https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Ubuntu+Condensed&display=swap);
 
 $open-sans: 'Open Sans Condensed';
+$ubuntu-cond: 'Ubuntu Condensed';
 
 .menu-item {
     min-width: 30%;
@@ -46,7 +47,6 @@ $open-sans: 'Open Sans Condensed';
     }
   
     .content {
-      font-family: $open-sans;
       height: 90px;
       padding: 0 25px;
       display: flex;
@@ -59,6 +59,7 @@ $open-sans: 'Open Sans Condensed';
       position: absolute;
   
       .title {
+        font-family: $ubuntu-cond;
         font-weight: bold;
         margin: 0 6px 0;
         font-size: 22px;
@@ -66,6 +67,7 @@ $open-sans: 'Open Sans Condensed';
       }
   
       .subtitle {
+        font-family: $open-sans;
         font-weight: lighter;
         font-size: 16px;
       }
