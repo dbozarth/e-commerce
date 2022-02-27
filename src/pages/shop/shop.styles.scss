@@ -1,0 +1,12 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Ubuntu+Condensed&display=swap);
+
+$open-sans: 'Open Sans Condensed';
+$ubuntu-cond: 'Ubuntu Condensed';
+
+.title {
+    font-family: $ubuntu-cond;
+    font-weight: bold;
+    margin: 0 6px 0;
+    font-size: 22px;
+    color: #4a4a4a;
+  }
